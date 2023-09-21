@@ -9,4 +9,4 @@
     - Outlet_Type_Grocery Store decreases -1607.678
     - Item_Visibility decreases -425.370
     - Outlet_Type_Supermarket Type2 decreases the sales by -183.277
-   ![Random Forest Coefficients](RANDOM FOREST FEATURE IMPORTANCE.png)
+   ![Random Forest Coefficients](RANDOMFORESTFEATUREIMPORTANCE.png)
