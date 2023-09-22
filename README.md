@@ -27,3 +27,34 @@
     -In the case of this feature, you'll notice that the majority of red values are concentrated to the left of 0. This implies that when an outlet is categorized as a grocery store, it's more likely that the associated items will have lower selling prices.
 - Outlet_Type_Supermarket Type 3:
     -This feature exhibits a notable concentration of red values above 0. This signifies that outlets categorized under this type tend to lead to higher sales.
+  ## Shap plot group A
+   ![Shap Plot](forceA.png)
+  - As we can see in the force plot above for group A:
+     -There was one feature pushing the prediction in the opposite direction such as:
+     -Item_MRP
+  ## LIME plot group A
+  ![LIME Plot](limegroupa.png)
+  -As we can see in the LIME explanation above, there were many factors contributing to the predicted positive impact for group A, such as:
+      -the Outlet_Type_Grocery Store
+      -The Outlet_Type_Supermarket Type3
+-And for the negative side for group A such as:
+      -Item_MRP
+
+
+ ## Shap plot group B
+  ![Shap Plot](forceB.png)
+- As we can see in the force plot above for group B:
+    - There was one feature pushing the prediction in the opposite direction such as:
+    - Item_MRP
+    - The Outlet_Type_Supermarket Type3
+ ## LIME plot group B
+  ![LIME Plot](limeb.png)
+- As we can see in the LIME explanation above, there were many factors contributing to the predicted positive impact for group A, such as:
+     -the Outlet_Type_Grocery Store
+     - And for the negative side for group A such as:
+      -The Outlet_Type_Supermarket Type3
+      - Item_MRP
+
+
+
+
