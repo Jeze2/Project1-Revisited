@@ -52,13 +52,13 @@
  ![Linear Regression Coefficients](coefficients.png)
 ## The coefficients provide the following insights into which features positively or negatively influence product sales:
 ### Coefficients that Positively Influence Product Sales:
-    - Outlet_Type_Supermarket Type3 increases the sales by 1524.724
-    - Item_Type_Seafood increases the sales by 302.602
-    - Outlet_Type_Supermarket Type1 increases the sales by 266.230
+ - Having Supermarket Type3 outlets boosts our sales by a significant margin, adding approximately 1524.724 units to our revenue.
+ - Products categorized as Seafood also contribute positively, resulting in a sales increase of approximately 302.602 units.
+ - If we focus on Supermarket Type1 outlets, we can expect a sales boost of around 266.230 units.
 ### Coefficients that Negatively Influence Product Sales:
-    - Outlet_Type_Grocery Store decreases -1607.678
-    - Item_Visibility decreases -425.370
-    - Outlet_Type_Supermarket Type2 decreases the sales by -183.277
+- Operating Grocery Store outlets has a negative impact on our sales, causing a decrease of approximately -1607.678 units in revenue.
+-  Reducing the visibility of items on the shelves also negatively affects sales, resulting in a decrease of approximately -425.370 units.
+-  Specifically, having Supermarket Type2 outlets leads to a decrease in sales by approximately -183.277 units.
    ![Random Forest Coefficients](randomforest.png)
  ## The top 5 feature importances are:
     - Item_MRP
