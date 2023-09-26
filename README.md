@@ -1,3 +1,7 @@
+# Contact Information
+- Name : Gabriel Pantoja
+ ## You can reach out to me via:
+- Email: [jezepantoja@gmail.com](mailto:jezepantoja@gmail.com)
 # Prediction-of-product-sales
 ## Summary
 - This project aims to analyze sales data and develop a regression model to predict item outlet sales based on various features. The dataset includes information such as item weight, item type, outlet size, and advertising spend, among others. By exploring the data and building a predictive model, valuable insights can be derived to support business decision-making and optimize sales strategies.
