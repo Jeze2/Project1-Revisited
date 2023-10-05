@@ -80,31 +80,27 @@
   ## Shap plot group A
    ![Shap Plot](forceA.png)
   - As we can see in the force plot above for group A:
-     -There was one feature pushing the prediction in the opposite direction such as:
-     -Item_MRP
+    
+  -Outlet_Type_Supermarket Type3 is a strong factor pushing towards a higher sales prediction.
   ## LIME plot group A
   ![LIME Plot](limegroupa.png)
   -As we can see in the LIME explanation above, there were many factors contributing to the predicted positive impact for group A, such as:
+  
       -the Outlet_Type_Grocery Store
+  
       -The Outlet_Type_Supermarket Type3
+  
 -And for the negative side for group A such as:
+
       -Item_MRP
 
 
  ## Shap plot group B
   ![Shap Plot](forceB.png)
-- As we can see in the force plot above for group B:
-    - There was one feature pushing the prediction in the opposite direction such as:
-    - Item_MRP
-    - The Outlet_Type_Supermarket Type3
+- As we compare to Group 1, Item_MRP is still a large influence on pushing the sales prediction lower, it is evident that there is slightly more influence now from Outlet_Type_Grocery Store towards the higher sales prediction When Item_MRP is lower.
  ## LIME plot group B
   ![LIME Plot](limeb.png)
-- As we can see in the LIME explanation above, there were many factors contributing to the predicted positive impact for group A, such as:
-     -the Outlet_Type_Grocery Store
-     - And for the negative side for group A such as:
-      -The Outlet_Type_Supermarket Type3
-      - Item_MRP
-
+- Outlet_Type_Grocery Store is still a major factor in the sales prediction, but there are several factors that have a stronger negative impact.
 
 
 
