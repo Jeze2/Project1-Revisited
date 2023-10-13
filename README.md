@@ -79,28 +79,17 @@
     -This feature exhibits a notable concentration of red values above 0. This signifies that outlets categorized under this type tend to lead to higher sales.
   ## Shap plot group A
    ![Shap Plot](forceA.png)
-  - As we can see in the force plot above for group A:
-    
-  -Outlet_Type_Supermarket Type3 is a strong factor pushing towards a higher sales prediction.
+  - In the force plot for group A, we can observe that Outlet_Type_Supermarket Type3 is a significant factor contributing to a higher sales prediction for the specific rows in this group. This indicates that for this particular subset of data, the model is influenced by the presence of Supermarket Type3 outlets, leading to an increase in the sales prediction. This local explainer highlights the specific feature's impact on the prediction for these rows within the chosen group.
   ## LIME plot group A
   ![LIME Plot](limegroupa.png)
-  -As we can see in the LIME explanation above, there were many factors contributing to the predicted positive impact for group A, such as:
-  
-      -the Outlet_Type_Grocery Store
-  
-      -The Outlet_Type_Supermarket Type3
-  
--And for the negative side for group A such as:
-
-      -Item_MRP
-
+  -In the LIME explanation provided above, we can identify several factors that contribute to the predicted positive impact for group A. Notably, features like Outlet_Type_Grocery Store and Outlet_Type_Supermarket Type3 are influential in pushing the sales prediction in a positive direction for this specific group of data. On the negative side for group A, the feature Item_MRP appears to have a notable impact, leading to a decrease in the sales prediction. These insights from the LIME explainer shed light on the key drivers affecting the predictions for this particular subset of data within group A.
 
  ## Shap plot group B
   ![Shap Plot](forceB.png)
 - As we compare to Group 1, Item_MRP is still a large influence on pushing the sales prediction lower, it is evident that there is slightly more influence now from Outlet_Type_Grocery Store towards the higher sales prediction When Item_MRP is lower.
  ## LIME plot group B
   ![LIME Plot](limeb.png)
-- Outlet_Type_Grocery Store is still a major factor in the sales prediction, but there are several factors that have a stronger negative impact.
+- Outlet_Type_Grocery Store remains a significant factor in the sales prediction, but it's worth noting that there are other factors within the model that have a more pronounced negative impact on the prediction. While Outlet_Type_Grocery Store plays a role, there are other features that exert a stronger influence in driving the sales prediction down for the specific scenario under consideration. This highlights the complexity of the model's decision-making process, where multiple factors interact to determine the final prediction, with some factors carrying greater weight than others in the negative direction.
 
 
 
